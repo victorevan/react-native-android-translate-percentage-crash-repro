@@ -74,6 +74,7 @@ function App(): React.JSX.Element {
         <Header />
         <View
           style={{
+            transform: [{ translateY: '100%' }],
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
           <Section title="Step One">
